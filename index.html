@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="loyal">
+<head>
+    <meta charset="UTF-8">
+    <title>Risa and the Loyal</title>
+    <!--bootstrap css files-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!--custom css scripts -->
+    <link rel="stylesheet" href="css/risas-loyal.css">
+</head>
+<body>
+  <div class="container">
+      <header>
+         <nav class="loyal-nav col-md-12">
+             <ul>
+                 <a ui-sref="home" target="_self"><li>Home</li></a>
+                 <!--<a href="#"><li>Albums</li></a>-->
+                 <a ui-sref="contact"><li>Contact</li></a>
+             </ul>
+         </nav>
+      </header>
+      <div ui-view class="col-md-offset-6 col-md-6 main-content"></div>
+      <footer></footer>
+  </div>
+   
+   
+   <!-- Angular scripts -->
+   <script src="js/angular.min.js"></script>
+   <script src="js/angular-ui-router.js"></script>
+   <script src="js/angular-animate.min.js"></script>
+   <script src="app/app.js"></script>
+   <script src="app/states.js"></script>
+   <!-- jQuery scripts -->
+   <script src="js/jquery-3.1.1.min.js"></script>
+   <!--bootstraps js files -->
+   <script src="js/bootstrap.min.js"></scriptq> 
+</body>
+</html>

@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
+/* Variables Styling */
+/* layout styles */
+* {
+  position: relative;
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100vh;
+  width: 100vw;
+  color: #333333; }
+
+body {
+  background: url("../img/risa-cover-option-stretch.jpg") no-repeat center center;
+  background-size: cover; }
+  body a {
+    color: #333333;
+    font: 16px Raleway, sans-serif, Arial, Helvetica;
+    transition: all 250ms ease; }
+  body a:hover {
+    color: gray; }
+
+.main-content {
+  font: 16px Raleway, sans-serif, Arial, Helvetica;
+  text-align: center; }
+  .main-content h1 {
+    font-size: 40pt; }
+  .main-content hr {
+    border-top: 1px solid #ffcc99; }
+
+/* Navbar Styling */
+.loyal-nav ul {
+  display: block;
+  text-align: right;
+  list-style-type: none; }
+  .loyal-nav ul li {
+    margin: 20px 20px;
+    display: inline-block;
+    text-transform: uppercase; }
+
+/* home.html styles */
+#mad-love {
+  padding-bottom: 20px; }
+
+#risa-release-content {
+  height: 100%;
+  margin-top: 47%; }
+
+/* Contact Page Styles */
+form.loyal-form {
+  text-align: left;
+  margin-top: 25%; }
+  form.loyal-form input, form.loyal-form textarea {
+    border: 1px solid #333333;
+    background-color: transparent; }
+  form.loyal-form #submit {
+    color: #333333;
+    transition: all 250ms ease; }
+  form.loyal-form #submit:hover {
+    color: #262626;
+    background-color: #ffbf80; }
+
+.kickstarter {
+  background-color: #ffcc99;
+  border: 1px solid #333333;
+  padding: 10px 20px;
+  transition: all 250ms ease; }
+  .kickstarter a {
+    color: #333333;
+    text-decoration: none; }
+  .kickstarter a:hover {
+    color: #333333; }
+
+.kickstarter:hover {
+  background-color: #ffd9b3; }
+
+/* Social Media Styles */
+ul.social-media {
+  display: block; }
+  ul.social-media li {
+    margin: 0 10px;
+    display: inline-block; }
+
+/* footer styles */
