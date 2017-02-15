@@ -81,6 +81,8 @@ ul.social-media {
   ul.social-media li {
     margin: 0 10px;
     display: inline-block; }
+  ul.social-media a:hover {
+    color: #ff9933; }
 
 /* footer styles */
 /* Media Queries Styles */
