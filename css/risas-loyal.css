@@ -84,6 +84,6 @@ ul.social-media {
 
 /* footer styles */
 /* Media Queries Styles */
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1200px) {
   #risa-release-content {
     margin-top: 30%; } }
