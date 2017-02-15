@@ -83,3 +83,7 @@ ul.social-media {
     display: inline-block; }
 
 /* footer styles */
+/* Media Queries Styles */
+@media only screen and (max-width: 1200px) {
+  #risa-release-content {
+    margin-top: 30%; } }
